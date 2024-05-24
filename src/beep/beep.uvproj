@@ -46,7 +46,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Objects\</OutputDirectory>
-          <OutputName>I2C_AT24C02_EEPROM</OutputName>
+          <OutputName>beep</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -348,7 +348,7 @@
             <DataOverlaying>1</DataOverlaying>
             <OverlayString></OverlayString>
             <MiscControls></MiscControls>
-            <DisableWarningNumbers>16</DisableWarningNumbers>
+            <DisableWarningNumbers></DisableWarningNumbers>
             <LinkerCmdFile></LinkerCmdFile>
             <Assign></Assign>
             <ReserveString></ReserveString>
@@ -412,24 +412,34 @@
               <FilePath>.\time.h</FilePath>
             </File>
             <File>
-              <FileName>I2C.c</FileName>
+              <FileName>timer0.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\I2C.c</FilePath>
+              <FilePath>.\timer0.c</FilePath>
             </File>
             <File>
-              <FileName>I2C.h</FileName>
+              <FileName>timer0.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\I2C.h</FilePath>
+              <FilePath>.\timer0.h</FilePath>
             </File>
             <File>
-              <FileName>AT24C02.c</FileName>
+              <FileName>nixie.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\AT24C02.c</FilePath>
+              <FilePath>.\nixie.c</FilePath>
             </File>
             <File>
-              <FileName>AT24C02.h</FileName>
+              <FileName>nixie.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\AT24C02.h</FilePath>
+              <FilePath>.\nixie.h</FilePath>
+            </File>
+            <File>
+              <FileName>buzzer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\buzzer.c</FilePath>
+            </File>
+            <File>
+              <FileName>buzzer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\buzzer.h</FilePath>
             </File>
           </Files>
         </Group>
